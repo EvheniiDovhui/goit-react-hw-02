@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Feedback from './Feedback/Feedback';
 import Options from './Options/Options';
-// import css from './App.module.css';
 
 const App = () => {
   const storedFeedback = JSON.parse(localStorage.getItem('feedback')) || {
